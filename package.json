@@ -1,6 +1,6 @@
 {
   "name": "musikani",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WaniKani inspired Musical Notation Training",
   "scripts": {
     "test": "echo 'Error: No tests here yet'",
