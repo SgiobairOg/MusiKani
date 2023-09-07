@@ -6,7 +6,7 @@
       "persistent": true
     },
     "test": {
-      "dependsOn": ["built"],
+      "dependsOn": ["build"],
       "inputs": ["src/**/*.ts", "src/**/*.test.ts"]
     },
     "lint": {},
@@ -14,7 +14,8 @@
       "outputs": ["dist/**"],
       "dependsOn": ["^build"]
     },
-    "release": {},
-    "//#release": {}
+    "//#release": {
+      "dependsOn": ["^build", "^lint", "^test"]
+    }
   }
 }
