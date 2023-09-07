@@ -2,6 +2,7 @@ import * as dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
+import { NoteReviewSchema } from "contract";
 
 dotenv.config()
 
