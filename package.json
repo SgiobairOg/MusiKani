@@ -1,0 +1,16 @@
+{
+  "name": "musikani",
+  "version": "0.0.0",
+  "description": "WaniKani inspired Musical Notation Training",
+  "scripts": {
+    "test": "echo 'Error: No tests here yet'",
+    "preinstall": "npx only-allow pnpm",
+  },
+  "keywords": [
+    "music",
+    "srs",
+    "learning"
+  ],
+  "author": "Aoibhe Wilson",
+  "license": "UNLICENSED",
+}
