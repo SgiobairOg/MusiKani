@@ -7,7 +7,10 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "cz": "cz",
-    "version": "turbo run build lint test && changeset version"
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "keywords": [
     "music",
@@ -17,11 +20,11 @@
   "author": "Aoibhe Wilson",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
